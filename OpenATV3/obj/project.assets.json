@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    ".NETFramework,Version=v9.0": {}
+    "net9.0": {
+      "plist-cil/2.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/plist-cil.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/plist-cil.dll": {
+            "related": ".pdb"
+          }
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "plist-cil/2.3.1": {
+      "sha512": "Gz6DAc89kQII9BILp1+cFHFx6ftk/s1EWP68vW+YqOT4FRKo/UWzTq6D9PEvudov2xcXHtkTA5JkIL+UK477vg==",
+      "type": "package",
+      "path": "plist-cil/2.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/plist-cil.dll",
+        "lib/net5.0/plist-cil.pdb",
+        "lib/net6.0/plist-cil.dll",
+        "lib/net6.0/plist-cil.pdb",
+        "lib/net7.0/plist-cil.dll",
+        "lib/net7.0/plist-cil.pdb",
+        "lib/net8.0/plist-cil.dll",
+        "lib/net8.0/plist-cil.pdb",
+        "lib/net9.0/plist-cil.dll",
+        "lib/net9.0/plist-cil.pdb",
+        "plist-cil.2.3.1.nupkg.sha512",
+        "plist-cil.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETFramework,Version=v9.0": []
+    "net9.0": [
+      "plist-cil >= 2.3.1"
+    ]
   },
   "packageFolders": {
     "/Users/un/.nuget/packages/": {}
@@ -30,7 +68,7 @@
         "https://nuget.pkg.github.com/Atlas-Rhythm/index.json": {}
       },
       "frameworks": {
-        "net90": {
+        "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {}
         }
@@ -39,12 +77,40 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
-      "net90": {
+      "net9.0": {
         "targetAlias": "net9.0",
-        "runtimeIdentifierGraphPath": "/Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/msbuild/Current/bin/RuntimeIdentifierGraph.json"
+        "dependencies": {
+          "plist-cil": {
+            "target": "Package",
+            "version": "[2.3.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/Users/un/.dotnet/sdk/9.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

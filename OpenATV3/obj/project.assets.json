@@ -1,0 +1,51 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v9.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v9.0": []
+  },
+  "packageFolders": {
+    "/Users/un/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/un/RiderProjects/OpenATV3/OpenATV3/OpenATV3.csproj",
+      "projectName": "OpenATV3",
+      "projectPath": "/Users/un/RiderProjects/OpenATV3/OpenATV3/OpenATV3.csproj",
+      "packagesPath": "/Users/un/.nuget/packages/",
+      "outputPath": "/Users/un/RiderProjects/OpenATV3/OpenATV3/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/un/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/Atlas-Rhythm/index.json": {}
+      },
+      "frameworks": {
+        "net90": {
+          "targetAlias": "net9.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net90": {
+        "targetAlias": "net9.0",
+        "runtimeIdentifierGraphPath": "/Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/msbuild/Current/bin/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
